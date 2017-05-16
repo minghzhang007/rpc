@@ -22,11 +22,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="rpc" />
+        <module name="zk" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="rpc" target="1.5" />
+      <module name="zk" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
